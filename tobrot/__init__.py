@@ -253,6 +253,7 @@ EX_LEECH_LOG = [int(chats) if (' ' not in getVar('EX_LEECH_LOG', '')) else int(c
 EXCEP_CHATS = [int(chats) if (' ' not in getVar('EXCEP_CHATS', '')) else int(chats) for chats in getVar('EXCEP_CHATS', '').split()]
 BOT_PM = getVar("BOT_PM", False)
 AUTO_LEECH = getVar("AUTO_LEECH", False)
+AUTO_LEECH = True if AUTO_LEECH.lower() == "true" else False
 
 #Status Photos & Pixabay API >>>>>>>>>>
 PICS_LIST = (getVar("PICS", "")).split()
@@ -272,7 +273,8 @@ FSUB_CHANNEL = getVar("FSUB_CHANNEL", "")
 
 # Quotes in Restart Message & Utils >>>>>>>>
 TIMEZONE = getVar("TIMEZONE", "Asia/Kolkata")
-RDM_QUOTE = getVar("RDM_QUOTE", True)
+RDM_QUOTE = getVar("RDM_QUOTE", False)
+RDM_QUOTE = True if RDM_QUOTE.lower() == "true" else False
 
 # Database Handler >>>>>>>>
 DB_URI = getVar("DATABASE_URL", "")
