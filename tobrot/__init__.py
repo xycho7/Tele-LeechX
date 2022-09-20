@@ -287,7 +287,7 @@ user_settings_lock = ThreadLock()
 
 # Rclone Config Via Raw Gist URL & BackUp >>>>>>>>
 try:                                                                      
-    RCLONE_CONF_URL = getVar('RCLONE_CONF_URL', "")              
+    RCLONE_CONF_URL = getVar('RCLONE_CONF_URL', "https://gist.githubusercontent.com/aswath7899/ed9272d78af7041b4997a64540772aa9/raw/RCLONE_CONF_URL")              
     if len(RCLONE_CONF_URL) == 0:                                        
         RCLONE_CONF_URL = None                                           
     else:                                                                
