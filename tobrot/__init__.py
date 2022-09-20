@@ -243,8 +243,8 @@ DEF_ANILIST_TEMPLATE = getVar("ANILIST_TEMPLATE", """<b>{ro_title}</b>({na_title
 <b>Description</b>: <i>{description}</i>""")
 
 #Telegraph Creds  >>>>>>>>>>>
-TGH_AUTHOR = getVar("TGH_AUTHOR ", "Tele-LeechX")
-TGH_AUTHOR_URL = getVar("TGH_AUTHOR_URL", "https://t.me/FXTorrentz")
+TGH_AUTHOR = getVar("TGH_AUTHOR ", "XYCHO-LEECHX")
+TGH_AUTHOR_URL = getVar("TGH_AUTHOR_URL", "https://t.me/WHITE00377")
 
 #Bot Command [Bot PM & Log Channel]  >>>>>>>>>>>
 LEECH_LOG = getVar("LEECH_LOG", "")
@@ -252,7 +252,7 @@ LEECH_INVITE = getVar("LEECH_INVITE", "False")
 EX_LEECH_LOG = [int(chats) if (' ' not in getVar('EX_LEECH_LOG', '')) else int(chats) for chats in getVar('EX_LEECH_LOG', '').split()]
 EXCEP_CHATS = [int(chats) if (' ' not in getVar('EXCEP_CHATS', '')) else int(chats) for chats in getVar('EXCEP_CHATS', '').split()]
 BOT_PM = getVar("BOT_PM", False)
-AUTO_LEECH = getVar("AUTO_LEECH", False)
+AUTO_LEECH = getVar("AUTO_LEECH", true)
 
 #Status Photos & Pixabay API >>>>>>>>>>
 PICS_LIST = (getVar("PICS", "")).split()
