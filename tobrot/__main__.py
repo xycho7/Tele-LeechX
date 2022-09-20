@@ -87,8 +87,8 @@ async def start(client, message):
     """/start command"""
     buttons = [
             [
-                InlineKeyboardButton('🚦 Bot Stats 🚦', url='https://t.me/FXTorrentz/28'),
-                InlineKeyboardButton('🛃 FX Group 🛃', url='https://t.me/+BgIhdNizM61jOGNl'),
+                InlineKeyboardButton('🚦 BADMIN 🚦', url='https://t.me/WHITE00377'),
+                InlineKeyboardButton('🛃 XYCHO LEECH 🛃', url='https://t.me/+fMgISa8jtGYwZDFl'),
             ]
             ]
     reply_markup=InlineKeyboardMarkup(buttons)
